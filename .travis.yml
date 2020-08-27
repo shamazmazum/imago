@@ -4,7 +4,6 @@ language: common-lisp
 env:
   matrix:
     - LISP=sbcl
-    - LISP=cmucl
 
 install:
   - sudo apt-get install info install-info
