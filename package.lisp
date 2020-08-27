@@ -21,6 +21,11 @@
            #:rgb-image #:indexed-image #:grayscale-image #:planar-image
            #:rgb-pixel #:indexed-pixel #:grayscale-pixel #:planar-pixel
 
+           #:imago-condition
+           #:imago-error
+           #:unknown-format
+           #:decode-error
+
            #:with-image-definition
            #:do-image-pixels #:do-region-pixels #:do-line-pixels
            #:set-alpha
@@ -54,12 +59,12 @@
 
            #:compose
 
-           #:read-image
-           #:register-image-reader
+           #:read-image #:write-image
+           #:register-image-reader #:register-image-writer
+           #:register-image-reader-writer
 
+           #:read-jpg #:write-jpg
            #:read-png #:write-png
            #:read-pnm #:write-pnm
            #:read-tga #:write-tga
            #:read-pcx #:write-pcx))
-
-
